@@ -1,0 +1,58 @@
+body{
+	background:#333;
+}
+
+.ball{
+
+height:300px;
+width:300px;
+position:absolute;
+background-color: white;
+animation-name: Yashvi;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes Yashvi{
+
+	0% {
+		background-color: white;
+		border-radius: 0 0 0 0;
+		left:0px;
+		top:0px;
+}
+
+20%{
+	
+background-color: red;
+		border-radius: 50% 0 0 0;
+		left: 300px;
+		top:0px;
+}
+
+
+50%{
+	background-color: green;
+		border-radius: 50% 50% 0 0;
+		left: 300px;
+	    top:300px;	
+}
+
+75%{
+	background-color: blue;
+		border-radius: 50% 50% 50% 0;
+		top: 300px;
+		left:0px;
+}
+
+100%{
+	background-color: white;
+		border-radius: 50% 50% 50% 50%;
+		top: 0px;
+		left:0px;
+}
+
+
+
+
+}
